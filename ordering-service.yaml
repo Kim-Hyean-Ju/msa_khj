@@ -8,6 +8,8 @@ spring:
 
   kafka:
     kafka-server: localhost:9092
+    consumer:
+      group-id: ordering-group
 
 resilience4j:
   circuitbreaker:
